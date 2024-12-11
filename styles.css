@@ -104,6 +104,9 @@ article {
 
 /* media queries tablets */
 @media only screen and (max-width: 992px) {
+    body {
+        background-color: rgb(116, 116, 116);
+    }
     /* header */
     nav {
         display: block;
@@ -134,6 +137,9 @@ article {
 
 /* media queries mobile */
 @media only screen and (max-width: 576px) {
+    body {
+        background-color: rgb(61, 61, 61);
+    }
     /* header */
     .logo, .navi, .social {
         width: 83%;
