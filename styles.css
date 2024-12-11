@@ -132,3 +132,25 @@ article {
     }
 }
 
+/* media queries mobile */
+@media only screen and (max-width: 576px) {
+    /* header */
+    .logo, .navi, .social {
+        width: 83%;
+    }
+
+    /* main */
+    main{
+        flex-direction: column;
+    }
+    .articles {
+        width: 55vw;
+    }
+    article {
+        width: 46vw;
+    }
+    .publi {
+         width: 55vw;
+        margin-top: 3rem;
+    }
+}
