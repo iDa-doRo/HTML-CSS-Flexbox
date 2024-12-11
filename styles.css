@@ -97,8 +97,38 @@ article {
 }
 
 /* footer */
-
 .pie {
     background-color: skyblue;
     padding: 1rem;
 }
+
+/* media queries tablets */
+@media only screen and (max-width: 992px) {
+    /* header */
+    nav {
+        display: block;
+    }    
+    .logo, .navi, .social {
+        width: 95%;
+    }
+    .navi {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* main */
+    main{
+        flex-direction: column;
+    }
+    .articles {
+        width: 79vw;
+    }
+    article {
+        width: 33vw;
+    }
+    .publi {
+        width: 79vw;
+        margin-top: 3rem;
+    }
+}
+
